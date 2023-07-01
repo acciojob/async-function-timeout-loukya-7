@@ -16,8 +16,10 @@
     <div id="output"></div>
 
     <script type="text/javascript" src="./script.js">
-		const btn = document.getElementById('btn');
-btn.addEventListener('click', showMessageAfterDelay);
+		document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('btn');
+  btn.addEventListener('click', showMessageAfterDelay);
+});
 
 	</script>
   </body>
